@@ -1,0 +1,8 @@
+server:
+  port: 8081
+spring:
+  data:
+    mongodb:
+      uri: mongodb://mongodbservice:27017/movie_db
+  application:
+    name: user-movie-service
